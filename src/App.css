@@ -1,0 +1,136 @@
+
+*{
+  margin:0px;
+  padding:0px;
+
+}
+
+
+body{
+  display: flex;
+  justify-content: center;
+  align-items: center;
+  height: 100vh;
+}
+
+
+
+.card{
+  border: 1px solid #EEEEEE;
+  box-shadow: 0px 8px 15px 0px #1414141F;
+
+  box-shadow: 0px 0px 4px 0px #1414141A;
+  
+}
+
+.comp-container{
+  padding: 
+  10px 15px 10px 15px;
+}
+
+.pagination-card{
+  width: 370px;
+  height: 326px;
+  padding: 10px 0px 10px 0px;
+}
+
+
+.buttons{
+  display: grid;
+  gap: 10px;
+}
+
+.btn{
+  padding: 10px 20px 10px 20px;
+  text-align: center;
+
+}
+
+.btn:hover{
+  cursor: pointer;
+  background-color: #FFD84D;
+}
+
+.btn:active{
+  background-color: #FFCE22;
+}
+
+
+.btn-default{
+  background-color: #FFCE22;
+}
+
+.btn-v1{
+  background-color: #FFD84D;
+}
+
+.btn-v2{
+  background-color: #FFCE22;
+}
+
+
+
+.desktop {
+  display: flex;
+  height: 25px;
+  width: 25px;
+  border:1px solid #CDCDCD;
+  border-radius: 6px;
+  text-align: center;
+  background-color: #FFFFFF;
+  
+}
+
+.desktop:before{
+  content: url('./assets/check-v2');
+
+}
+
+.all-pages-container:hover .desktop{
+  cursor: pointer;
+  content: url('./assets/check-v2.svg');
+  border:1px solid #BDBDBD;
+}
+
+.all-pages-container:hover{
+  cursor: pointer;
+}
+
+.checkedDesktop{
+  background-color: #2469F6;
+  border: 1px transparent;
+  
+}
+
+.checkedDesktop:before{
+  content: url('./assets/check-v2.svg');
+  margin: auto auto;
+}
+
+.checkedDesktop:hover{
+  cursor: pointer;
+  background-color:#5087F8;
+  border: 1px transparent;
+  content: url('./assets/check-v2.svg');
+}
+
+.all-pages-container{
+  display: flex;
+  justify-content: space-between;
+  padding: 8px 15px 8px 22px;
+}
+/* 
+.all-pages-container:hover, desktop:hover{
+  cursor: pointer;
+} */
+
+
+
+.separator hr{
+  border: none;
+  border-top: 1px solid #CDCDCD;
+
+}
+
+
+
